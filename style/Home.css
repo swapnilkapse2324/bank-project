@@ -254,6 +254,7 @@ color:rgb(122, 12, 12);
      background: rgb(245,154,5);
     background: radial-gradient(circle, rgba(245,154,5,1) 0%, rgba(223,9,53,1) 100%);
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
   }
   .way-to-bnk-2{
@@ -272,9 +273,10 @@ color:rgb(122, 12, 12);
     /* height:300px ; */
     /* margin-top: 15px; */
     margin-top: 15px;
-    margin-left:px;
+
     width: 100px;
   }
+
   /* .cardss1{
     /* height:300px ; */
     /* margin-top: 15px;
@@ -286,8 +288,8 @@ color:rgb(122, 12, 12);
     display: flex;
   
     justify-content: space-evenly;
-    margin-left:100px;
-    margin-top: -190px;
+    /* margin-left:100px;
+    margin-top: -190px; */
     
    
   }
@@ -345,6 +347,8 @@ color:rgb(122, 12, 12);
 
 .digital-cards:hover{
   box-shadow: 5px 10px 15px 1px;
+  /* transition: 1s; */
+  transform: scale(0.9);
 }
  .digital-cards{
   /* border: 1px solid black; */
@@ -352,16 +356,20 @@ color:rgb(122, 12, 12);
   background-color:rgb(247, 181, 15);
   height: 400px ;
   width:280px ;
+  transition: 1s;
  }
  .digital-cards1{
   /* border: 1px solid black; */
   border-radius: 20px 20px 20px 20px ;
   background-color: rgb(122, 12, 12);
   height: 400px ;
-  width:280px ;
+  width:280px ;.
+  transition: 1s;
  }
  .digital-cards1:hover{
   box-shadow: 5px 10px 15px 1px;
+  transition: 1s;
+  transform: scale(0.9);
 }
 
 
@@ -432,6 +440,26 @@ color:rgb(122, 12, 12);
   }
 
 
+.lastnavbar{
+  background-color:rgb(108,9,9);
+text-align: center;
+  height:150px ;
+  width:1414px ;
+  font-size: 30px;
+  margin-top: 40px;
+  color:rgb(247, 181, 15) ;
+  
+
+}
+.Bankings-Apps{
+  margin: 80px;
+  margin-top: -18px;
+  width: 80px;
+  transition: 2s;
+}
+.Bankings-Apps:hover{
+  transform: scale(0.8);
+}
 
  
 
