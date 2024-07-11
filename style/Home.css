@@ -1,0 +1,467 @@
+.container-fluid{
+ background-color:brown ;
+
+}
+.bnklogo{
+ 
+    height: 40px;
+    width: 200px;
+
+}
+
+.navbar-brand{
+    margin-left: 40px;
+    font-size: 16px;
+    color: rgb(247, 181, 15);
+
+}
+
+.navbar-brand:hover{
+ color: white;
+}
+.nav-link{
+    color: rgb(247, 181, 15); 
+    margin: 8px;
+    margin-left: 30PX;  
+}
+.nav-link:hover{
+    color: white;
+    
+}
+ .btn-outline-success :hover{
+color: rgb(247, 181, 15);  
+
+} 
+.btn123{
+    text-decoration: none;
+    color: rgb(247, 181, 15); 
+    margin-top:16px;
+    margin-left: 10px;
+}
+.dropdown{
+margin-left: 200px;
+
+}
+
+/* updates---- */
+
+.updates{
+    height: 50px;
+    width: 1400px;
+    background-color: rgb(247, 181, 15);  
+    margin-top: 20px;
+}
+.text---1{
+    font-size: 25px;
+    margin-left: 300px;
+    color:rgb(122, 12, 12) ;
+  
+}
+
+
+
+/* <!-- card------1 --> */
+
+
+.card1{
+    border: 1px solid rgb(194, 18, 62) ;
+    background-color:rgb(130, 12, 44);
+    height: 400px ;
+    width: 500px;
+     
+    margin-top: 90px;
+    margin-left: 40px;
+    border-radius: 50px  50px 50px 50px;
+}
+.card2{
+    /* background-color:rgb(130, 12, 44)  ; */
+    border: 1px solid rgb(122, 12, 12)  ;
+    background-image: url(../Img/PNB-SO-Apply-Online\ 2.jpg);
+    height: 400px ;
+    width: 750px;
+    margin-top: 90px;
+    margin-left: 70px;
+    border-radius: 50px  50px 50px 50px;
+}
+.maincard{
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+.name{
+ font-size: 25px;
+ margin-left: 40px;
+ margin: 25px;
+ color:rgb(247, 181, 15);  
+}
+.name1{
+    font-size: 25px;
+    margin-left: 40px;
+    margin: 22px;
+    color:rgb(122, 12, 12);  
+   }
+.containt2{
+    margin-left: 30px;
+/* font-size: 10px; */
+color: white;  
+}
+
+.containt3{
+    margin-top: -15px;
+    
+    font-size: 15px;
+    color: white;
+
+}
+
+/* card---2 */
+
+
+
+
+
+.form-control1{
+    border-radius: 50px;
+    height:35px ;
+    width: 200px;
+}
+.form-control2{
+    border-radius: 50px;
+    height:35px ;
+    width: 200px;
+    display: flex;
+}
+.ancer1{
+    margin-bottom: -50pxx;
+    color:rgb(122, 12, 12);  
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 12px;
+    margin-top: -50px;
+
+}
+
+
+
+/* headline--- */
+
+
+.headline{
+ margin-top: 40px;
+ font-size:40px ;
+ color:rgb(122, 12, 12);
+ text-align: center;
+ margin-left: 50px; 
+}
+
+
+
+
+
+ /* card---card---3     */
+
+
+.maincarddiv{
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+ .gallery {
+    height: 450px;
+    margin: 5px;
+    float: left;
+    width: 300px;
+    border-radius: 0px 0px 40px 40px;
+    box-shadow: 1px 1px 5px 0px;
+    
+ }
+
+.gallery:hover {
+border:1px solid #777; 
+background-color:rgb(247, 181, 15);
+color:rgb(122, 12, 12);
+     } 
+  
+  .gallery img {
+    width: 100%;
+    height:250px;
+  }
+  
+  .desc {
+    padding: 15px;
+    text-align: center;
+  }
+  .btn{
+    margin-top:-30px;
+    width: 100px;
+    background-color:rgb(247, 181, 15);
+    border-radius: 15px;
+    margin-left: 20px; 
+    color:rgb(122, 12, 12);
+    
+  }
+  .btn:hover{
+    background-color:rgb(122, 12, 12);    
+    color: white;
+  }
+  .desca{
+    margin-left: 20px;
+    margin-top: 40px;
+  }
+  .ancer{
+    margin-bottom: -50px;
+    text-decoration: none;
+    font-weight: 100px;
+    color:rgb(122, 12, 12);
+
+}
+.form-control1{
+    font-size: 12px;
+    
+}
+  .value{
+    font-size: 12px;
+  }
+  
+
+
+  /* heading...../ */
+
+  .headline12{
+    background-color:rgb(247, 181, 15);
+    margin-top: 40px;
+    width: 1400px;
+    font-size:40px ;
+    color:rgb(122, 12, 12);
+    text-align: center;
+    /* margin-left: 50  px;  */
+   }
+   
+
+ 
+  /* ways to bank */
+
+
+ 
+
+  .way-to-bnk{
+    margin-left: 200px;
+    border: 1px solid black;
+    height: 350px;
+    width: 1000px;
+    border-radius:0px 80px 0px 80px;
+     background: rgb(245,154,5);
+    background: radial-gradient(circle, rgba(245,154,5,1) 0%, rgba(223,9,53,1) 100%);
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .way-to-bnk-2{
+    border: 1px solid #777;
+    background-color: white;
+    height:130px ;
+    width: 270px;
+    margin-top: 30px;
+    /* padding: 20px; */
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    border-radius:10px 10px 10px 10px;
+    
+  }
+  .cardss{
+    /* height:300px ; */
+    /* margin-top: 15px; */
+    margin-top: 15px;
+    margin-left:px;
+    width: 100px;
+  }
+  /* .cardss1{
+    /* height:300px ; */
+    /* margin-top: 15px;
+    margin-left:100px;
+    width: 100px; */
+  /* } */ 
+
+  .way-to-bnk-3{
+    display: flex;
+  
+    justify-content: space-evenly;
+    margin-left:100px;
+    margin-top: -190px;
+    
+   
+  }
+  .texting{
+
+    margin-left:130px ;
+    margin-top:-70px ;
+  }
+
+  .cardss1{
+    /* height:300px ; */
+    /* margin-top: 15px; */
+    margin-top: 15px;
+    margin-left:px;
+    width: 100px;
+  }
+
+  .cardss2{
+    /* height:300px ; */
+    /* margin-top: 15px; */
+    margin-top: 15px;
+    margin-left:20px;
+    width: 100px;
+  }
+
+  .cardss3{
+    /* height:300px ; */
+    /* margin-top: 15px; */
+    margin-top: 15px;
+    margin-left:100px;
+    width: 100px;
+  }
+
+
+
+
+
+
+/* HEADLINE..../ */
+
+.headline13{
+  
+  margin-top: 40px;
+  width: 1400px;
+  font-size:40px ;
+  color:rgb(122, 12, 12);
+  text-align: center;
+ 
+ }
+
+.digital-cards-main{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.digital-cards:hover{
+  box-shadow: 5px 10px 15px 1px;
+}
+ .digital-cards{
+  /* border: 1px solid black; */
+  border-radius: 20px 20px 20px 20px ;
+  background-color:rgb(247, 181, 15);
+  height: 400px ;
+  width:280px ;
+ }
+ .digital-cards1{
+  /* border: 1px solid black; */
+  border-radius: 20px 20px 20px 20px ;
+  background-color: rgb(122, 12, 12);
+  height: 400px ;
+  width:280px ;
+ }
+ .digital-cards1:hover{
+  box-shadow: 5px 10px 15px 1px;
+}
+
+
+ .texthead{
+  color:  rgb(122, 12, 12) ;
+  /* margin-left: 60px; */
+  text-align: center;
+  margin-top: 10px;
+ }
+
+ .texthead1{
+  color:  rgb(122, 12, 12) ;
+  /* margin-left: 15px; */
+  text-align: center;
+  margin-top: -10px;
+ }
+
+ .texthead2{
+  
+  color:rgb(247, 181, 15) ;
+  /* margin-left: 60px; */
+ margin-top: 10px;
+ text-align: center;
+ }
+
+ .texthead3{
+  color: white;
+  /* margin-left: 15px; */
+  margin-top: -10px;
+  text-align: center;
+
+ }
+ .kirasimg{
+  margin-left: -15px;
+ }
+ .kirasimg2{
+  margin-top: 47px;
+  margin-left: -15px;
+ }
+ .kirasimg3{
+  margin-top: 46px;
+  margin-left: -15px;
+ }
+ .kirasimg4{
+  margin-top: 23px;
+  margin-left: -15px;
+ }
+
+
+
+ .card-title{
+  text-align: center;
+}
+.card-body h5{
+   color: #ff6512;
+}
+.card{
+   margin: 30px;
+   transition: 1s;
+ /* margin-top: -20px; */
+}
+.card:hover{
+   transform: scale(0.9);
+}
+ .card-group{
+   background-color: rgb(108,9,9);
+
+  }
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

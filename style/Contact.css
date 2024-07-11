@@ -1,0 +1,87 @@
+.container-fluid{
+    background-color:brown ;
+   
+   }
+   .bnklogo{
+    
+       height: 40px;
+       width: 200px;
+   
+   }
+   
+   .navbar-brand{
+       margin-left: 40px;
+       font-size: 16px;
+       color: rgb(247, 181, 15);
+   
+   }
+   
+   .navbar-brand:hover{
+    color: white;
+   }
+   .nav-link{
+       color: rgb(247, 181, 15); 
+       margin: 8px;
+       margin-left: 30PX;  
+   }
+   .nav-link:hover{
+       color: white;
+       
+   }
+    .btn-outline-success :hover{
+   color: rgb(247, 181, 15);  
+   
+   } 
+   .btn123{
+       text-decoration: none;
+       color: rgb(247, 181, 15); 
+       margin-top:16px;
+       margin-left: 10px;
+   }
+   .dropdown{
+   margin-left: 200px;
+   
+   }
+
+
+
+
+   /* carousel.... */
+
+
+   .carousel-inner{
+
+    background-image: url(../Img/contact--us.jpg);
+    height: 350px;
+    width: 1414px;
+
+   }
+
+   .contact--us{
+    margin-top: 150px ;
+    /* margin-left: ; */
+    text-align: center;
+    color: white;
+   }
+
+
+   /* deadline...... */
+
+
+
+   .horizontal{
+    display: flex;
+    
+   }
+   .home{
+    margin-top: 20px;
+    margin-left: 30px;
+    text-decoration: none;
+
+   }
+
+   .contact{
+    margin-top: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+   }
